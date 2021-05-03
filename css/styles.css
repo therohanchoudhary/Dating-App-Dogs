@@ -1,0 +1,164 @@
+body {
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat";
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.colored-section {
+  background-color: #FF4C68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-bottom: 10%;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+#title {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.download-button {
+  margin-right: 3%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
+.title-image {
+  position: absolute;
+  left: 60%;
+  transform: rotate(20deg);
+  width: 22%;
+}
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+
+.icon-section-para {
+  color: #8f8f8f;
+  font-size: 0.85rem;
+}
+
+.icon-container-icon {
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+
+.icon-container-icon:hover {
+  color: #FF4C68;
+  margin-bottom: 5%;
+}
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-title {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#cta {
+  padding: 6% 18% 9%;
+}
+
+#footer {
+  padding: 0 18% 4%;
+}
+
+.footer-icon {
+  margin: auto 0.5% auto;
+}
+
+.footer-para {
+  color: grey;
+  margin-top: 3%;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    margin-top: 8%;
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
